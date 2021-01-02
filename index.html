@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <style>
+      body {
+        --main-background-color: #1b1b1d;
+        --second-background-color: #0000002b;
+      }
+
+      .color {
+        display: flex;
+        height: 120px;
+        width: 120px;
+      }
+
+      .color.main {
+        background: var(--main-background-color);
+      }
+
+      .color.second {
+        background: var(--second-background-color);
+      }
+    </style>
+    <span class="color main"></span>
+
+    <span class="color second"></span>
+  </body>
+</html>
